@@ -1,5 +1,5 @@
 (function () {
-    var app = angular.module("app", ["ngRoute", "inicio"]);
+    var app = angular.module("app", ["ngRoute", "inicio","artigo"]);
     app.controller('appCtrl', function ($scope, $location) {
            $scope.master = 'bruno';
 
